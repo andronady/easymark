@@ -7219,3 +7219,177 @@ del {
 .logo .logo-part {
     color: #4B57FF;
 }
+
+
+/* login page */
+
+.login {
+    margin: 50px;
+}
+
+.login .myCtn {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login .card-body {
+    box-shadow: 0 3px 5px gray;
+}
+
+.login .my_form-control {
+    width: 100%;
+    padding: 8px;
+    padding-top: 18px;
+    border: none;
+    border-bottom: 1pt solid #bfbfbf;
+    transition: all 200ms ease-in-out;
+}
+
+.login .form-group {
+    position: relative;
+}
+
+.login label {
+    width: 100%;
+}
+
+.login .my_place {
+    position: absolute;
+    pointer-events: none;
+    top: 25px;
+    left: 5px;
+    color: #0073ff;
+    transition: 0.2s ease all;
+}
+
+.login .my_form-control:focus {
+    width: 100%;
+    padding: 8px;
+    padding-top: 18px;
+    border: none;
+    border-bottom: 2px solid #0073ff;
+    outline: none;
+}
+
+.login input:focus~.my_place,
+.login input:not(:focus):valid~.my_place {
+    top: -6px;
+}
+
+.login .btn {
+    border-radius: 25px;
+    box-shadow: 0 3px 4px #8abfff;
+    background-image: linear-gradient(to right, #79a1ff, #1352e6, #79a1ff);
+    background-size: 200%;
+    width: 250px;
+    border: none;
+    outline: none;
+    transition: .2s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login .btn:hover {
+    background-position: right;
+}
+
+.login .btn:focus,
+.login .btn:active,
+.login .btn:active:focus {
+    outline: none !important;
+    box-shadow: 0 3px 4px #8abfff !important;
+}
+
+.login .forgot {
+    font-size: 12px;
+    color: #0073ff;
+    cursor: pointer;
+}
+
+
+/*  signup 8/
+
+/* login page */
+
+.signup {
+    margin: 50px;
+}
+
+.signup .myCtn {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup .card-body {
+    box-shadow: 0 3px 5px gray;
+}
+
+.signup .my_form-control {
+    width: 100%;
+    padding: 8px;
+    padding-top: 18px;
+    border: none;
+    border-bottom: 1pt solid #bfbfbf;
+    transition: all 200ms ease-in-out;
+}
+
+.signup .form-group {
+    position: relative;
+}
+
+.signup label {
+    width: 100%;
+}
+
+.signup .my_place {
+    position: absolute;
+    pointer-events: none;
+    top: 25px;
+    left: 5px;
+    color: #0073ff;
+    transition: 0.2s ease all;
+}
+
+.signup .my_form-control:focus {
+    width: 100%;
+    padding: 8px;
+    padding-top: 18px;
+    border: none;
+    border-bottom: 2px solid #0073ff;
+    outline: none;
+}
+
+.signup input:focus~.my_place,
+.signup input:not(:focus):valid~.my_place {
+    top: -6px;
+}
+
+.signup .btn {
+    border-radius: 25px;
+    box-shadow: 0 3px 4px #8abfff;
+    background-image: linear-gradient(to right, #79a1ff, #1352e6, #79a1ff);
+    background-size: 200%;
+    width: 250px;
+    border: none;
+    outline: none;
+    transition: .2s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup .btn:hover {
+    background-position: right;
+}
+
+.signup .btn:focus,
+.signup .btn:active,
+.signup .btn:active:focus {
+    outline: none !important;
+    box-shadow: 0 3px 4px #8abfff !important;
+}
+
+.signup .forgot {
+    font-size: 12px;
+    color: #0073ff;
+    cursor: pointer;
+}
