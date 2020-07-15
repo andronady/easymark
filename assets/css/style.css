@@ -7643,3 +7643,318 @@ section.form-section .form-container .submit-button button {
     text-transform: uppercase;
     box-shadow: 0 1px 3px #999;
 }
+
+
+/*   search page  */
+
+.search-area {
+    text-align: center;
+    background-color: #00000029;
+    min-height: 241px;
+    padding: 50px;
+}
+
+.search-area span {
+    font-size: 22px;
+}
+
+.seach-select {
+    text-align: center;
+    width: 155px;
+    height: 37px;
+    background: #4B57FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+    font-size: 19px;
+}
+
+.search-packges .icon-boxes {
+    margin-top: 50px;
+}
+
+.search-packges .icon-box {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.search-packges .icon-box h3 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.search-packges .icon-box .fixed-price {
+    background: #4B57FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 128px;
+    height: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.search-packges .icon-box .var-price {
+    background: #343434 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 128px;
+    height: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.search-packges .icon-box .features p {
+    font-family: "Roboto", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: -4px;
+    font-weight: normal;
+}
+
+.search-packges.icon-box .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.search-packges .icon-box .title a {
+    color: #4b57ff;
+    transition: 0.3s;
+}
+
+.search-packges .icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.search-packges .icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+}
+
+.clerify-section {
+    background: #d8d8d8;
+    padding: 50px;
+}
+
+
+/* footer background light */
+
+
+/* footer  bottom area */
+
+.footer-bottom-area-light {
+    background: #fff;
+}
+
+.footer-bottom-area-light .footer-border {
+    padding: 33px 0px 20px
+}
+
+.footer-bottom-area-light .footer-copy-right p {
+    color: #888888;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 12px
+}
+
+@media (max-width: 575px) {
+    .footer-bottom-area-light .footer-copy-right p {
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-bottom-area-light .footer-copy-right p {
+        margin-bottom: 20px
+    }
+}
+
+.footer-bottom-area-light .footer-copy-right p i {
+    color: #331391
+}
+
+.footer-bottom-area-light .footer-copy-right p a {
+    color: #4B57FF
+}
+
+.footer-bottom-area-light .footer-copy-right p a:hover {
+    color: #fff
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .footer-bottom-area-light .footer-social {
+        float: left
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-bottom-area-light .footer-social {
+        float: left
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-bottom-area-light .footer-social {
+        float: left
+    }
+}
+
+.footer-bottom-area-light .footer-social a {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 25px
+}
+
+.footer-bottom-area-light .footer-social a i {
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    transform: rotateY(0deg)
+}
+
+.footer-bottom-area-light .footer-social a:hover {
+    color: #fff
+}
+
+.footer-bottom-area-light .footer-social a:hover i {
+    transform: rotateY(180deg)
+}
+
+
+/* footer area */
+
+.footer-area-light {
+    background: #F9FAFA
+}
+
+.footer-area-light .footer-social2 a:hover {
+    background: #331391;
+    color: #7f7f7f;
+    border: 1px solid transparent
+}
+
+.footer-area-light .footer-pera p {
+    color: #000;
+    padding-right: 52px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-area-light .footer-pera p {
+        padding-right: 0px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-area-light .footer-pera p {
+        padding-right: 0px
+    }
+}
+
+.footer-area-light .footer-pera.footer-pera2 p {
+    padding: 0
+}
+
+.footer-area-light .footer-tittle h4 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.footer-area-light .footer-tittle ul li {
+    color: #000;
+    margin-bottom: 9px
+}
+
+.footer-area-light .footer-tittle ul li P {
+    color: #868c98
+}
+
+.footer-area-light .footer-tittle ul li a {
+    color: #000;
+    font-weight: 300
+}
+
+.footer-area-light .footer-tittle ul li a:hover {
+    color: #fff;
+    padding-left: 5px
+}
+
+.footer-area-light .footer-tittle-bottom span {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 11px
+}
+
+@media (max-width: 575px) {
+    .footer-area-light .footer-tittle-bottom span {
+        font-size: 20px
+    }
+}
+
+.footer-area-light .footer-tittle-bottom p {
+    display: inline-block;
+    color: #fff
+}
+
+.footer-area-light .footer-form {
+    margin-top: 40px
+}
+
+.footer-area-light .footer-form form {
+    position: relative
+}
+
+.footer-area-light .footer-form form input {
+    width: 100%;
+    height: 43px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px
+}
+
+.footer-area-light .footer-form form .form-icon button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 22px;
+    background: #331391;
+    line-height: 1;
+    border-radius: 0 3px 3px 0
+}
+
+.footer-area-light .info.error {
+    color: #331391
+}
